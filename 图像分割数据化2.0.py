@@ -72,7 +72,7 @@ for i in range(107):
 
 # 将矩阵转换为DataFrame并保存为Excel文件
 df = pd.DataFrame(color_matrix)
-excel_path = 'color_matrix_from_image_with_tolerance_fixed.xlsx'
+excel_path = 'bin100.xlsx'
 df.to_excel(excel_path, index=False, header=False)
 
 print(f"矩阵已保存为 {excel_path}")
