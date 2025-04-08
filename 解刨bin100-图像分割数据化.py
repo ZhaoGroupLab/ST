@@ -73,7 +73,7 @@ for i in range(107):
 
 # 转换为DataFrame并保存为Excel文件
 df = pd.DataFrame(color_matrix)
-excel_path = 'jp-bin100-3.06.xlsx'
+excel_path = 'jp-bin100.xlsx'
 df.to_excel(excel_path, index=False, header=False)
 
 print(f"矩阵已保存为 {excel_path}")
